@@ -1,7 +1,6 @@
 import pandas as pd
 import joblib
 import streamlit as st
-import joblib
 
 st.markdown('# Selamat Datang di Aplikasi Prediksi Hewan')
 
