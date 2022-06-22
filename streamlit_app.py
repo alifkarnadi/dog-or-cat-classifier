@@ -24,7 +24,7 @@ print(['Height','Weight'])
 st.write(input_df)
 
 # Load and predict
-model = joblib.load('/content/logisticRegr.pkl')
+model = joblib.load('logisticRegr.pkl')
 prediction = model.predict(input_df)[0]
 prediction_proba = model.predict_proba(input_df)
 
